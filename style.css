@@ -1,0 +1,81 @@
+body{background-color:#ececec;
+    font-family: 'Nova Square', cursive;
+}
+.imgmontagna{background-size: cover;
+    background-image: url(./media/mountains.png), linear-gradient(white, rgb(255,255,255,0)), url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;}
+    
+    h1{color: brown;}
+    .albero{width: 150px;
+        height: 100px;}
+        .linea{border: solid 5px brown; position: relative; width: 100%;}
+        
+        .btn-custom{color: white;
+            background-color: brown;}
+            .sfondo {background-image: url(./media/trees.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;}
+                
+                .linea::before{width: 15px;
+                    height: 15px;
+                    content: ' ';
+                    color: whitesmoke ;
+                    border: solid 2px black;
+                    background-color: lightgray;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 48%; 
+                    /* margin-left: 55px; */
+                    margin-top: -7px;}
+                    
+                    .contcustom{
+                        margin-top: -40px;margin-left: 15px; border-left: 4px solid brown; margin-bottom: 550px; background-color: white;
+                    }
+                    .h4cust::before{width: 15px;
+                        height: 15px;
+                        content: ' ';
+                        color: whitesmoke ;
+                        border: solid 2px black;
+                        background-color: lightgray;
+                        border-radius: 50%;
+                        position: absolute;
+                        margin-left: -35px;}
+                        .imgback{background-image: url(./media/trees2.png);
+                            background-size: cover;
+                            background-position-y: bottom; height: 100%; margin-top: -25px; margin-left: 20px; background-repeat: no-repeat;
+                        }
+                        .imgback2{background-image: url(./media/single.png);
+                            background-size: 650px; 
+                            background-position:bottom right ; background-repeat: no-repeat;}
+                            .circleimg{justify-content: center; border: solid brown 3px;
+                                border-radius: 70%;
+                                border-style:hidden;position: relative;}
+                                .containcustom1{ margin-top: -300px;}
+                                .card{justify-content:center; border: none;}
+                                .card-footer{border:none;}
+                                .mycontainer{margin-top: -500px;}
+                                
+                                .circle-image {
+                                    width: 200px;
+                                    height: 200px;
+                                    border-radius: 50%;
+                                    background-image: url('./media/mountain-547363_1920.jpg');
+                                    background-size: cover;
+                                }
+                                .circle-image1{
+                                    width: 200px;
+                                    height: 200px;
+                                    border-radius: 50%;
+                                    background-image: url('./media/switzerland-862870_1920.jpg');
+                                    background-size: cover;
+                                }
+                                .redquerc{
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                }
+                                .fottsfondo{background-color: darkred;}
+                                footer{color:white;}
